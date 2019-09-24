@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MascotasFavoritas2</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="BioDesarrollador">La Bio del desarrollador.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
