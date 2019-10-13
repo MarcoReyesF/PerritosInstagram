@@ -56,9 +56,9 @@ public class FragmentPerfil extends Fragment {
 
     public void  inicializarListaDePerritus (){
         listaPerritusFavoritos = new ArrayList<>();
-        listaPerritusFavoritos.add(new Perritu(R.drawable.rex,250,"Rex"));
-        listaPerritusFavoritos.add(new Perritu(R.drawable.kim,100,"Kim"));
-        listaPerritusFavoritos.add(new Perritu(R.drawable.guardian,20,"Guardian"));
-        listaPerritusFavoritos.add(new Perritu(R.drawable.lana,20,"Lana"));
+        listaPerritusFavoritos.add(new Perritu(1,R.drawable.rex,250,"Rex"));
+        listaPerritusFavoritos.add(new Perritu(2,R.drawable.kim,100,"Kim"));
+        listaPerritusFavoritos.add(new Perritu(3,R.drawable.guardian,20,"Guardian"));
+        listaPerritusFavoritos.add(new Perritu(4,R.drawable.lana,20,"Lana"));
     }
 }

@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.example.mascotasfavoritas2.adapter.PerritoAdaptadorBasico;
 import com.example.mascotasfavoritas2.adapter.PerritusAdaptador;
 import com.example.mascotasfavoritas2.pojo.Perritu;
 
@@ -79,20 +80,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void inicializarAdaptador(){
-        PerritusAdaptador adaptador = new PerritusAdaptador(listaPerritus,this);
+        PerritoAdaptadorBasico adaptador = new PerritoAdaptadorBasico(listaPerritus,this);
         listaRecycle.setAdapter(adaptador);
     }
 
     public void  inicializarListaDePerritus (){
         listaPerritus = new ArrayList<Perritu>();
-        listaPerritus.add(new Perritu(R.drawable.rex,250,"Rex"));
-        listaPerritus.add(new Perritu(R.drawable.kim,100,"Kim"));
-        listaPerritus.add(new Perritu(R.drawable.guardian,20,"Guardian"));
-        listaPerritus.add(new Perritu(R.drawable.lana,20,"Lana"));
-        listaPerritus.add(new Perritu(R.drawable.chispito,15,"Chispito"));
-        listaPerritus.add(new Perritu(R.drawable.lanudo,15,"Lanudo"));
-        listaPerritus.add(new Perritu(R.drawable.owen,15,"Owen"));
-        listaPerritus.add(new Perritu(R.drawable.hunter,15,"Hunter"));
+        listaPerritus.add(new Perritu(1,R.drawable.rex,0,"Rex"));
+        listaPerritus.add(new Perritu(2,R.drawable.kim,0,"Kim"));
+        listaPerritus.add(new Perritu(3,R.drawable.guardian,0,"Guardian"));
+        listaPerritus.add(new Perritu(4,R.drawable.lana,0,"Lana"));
+        listaPerritus.add(new Perritu(5,R.drawable.chispito,0,"Chispito"));
+        listaPerritus.add(new Perritu(6,R.drawable.lanudo,0,"Lanudo"));
+        listaPerritus.add(new Perritu(7,R.drawable.owen,0,"Owen"));
+        listaPerritus.add(new Perritu(8,R.drawable.hunter,0,"Hunter"));
 
     }
 
